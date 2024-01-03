@@ -1,5 +1,41 @@
+:root {
+    --primary-color: rgb(103, 206, 247);
+    --font-family: roboto;
+    --secondry-color: rgb(1, 1, 51);
+    --highlights: rgb(218, 240, 249);
+}
+
+
 h1 {
-    font-family: roboto;
+    font-size: 96px;
     font-weight: bold;
-    background-color: aqua;
+}
+
+p {
+    font-weight: normal;
+    margin: 0;
+}
+
+.hero {
+    text-align: center;
+    background: var(--secondry-color);
+    font-family: var(--font-family);
+    color: var(--highlights);
+    padding: 160px;
+}
+
+.hero p {
+    font-size: 36px;
+}
+
+.hero h2 {
+    font-weight: normal;
+    font-size: 24px;
+    color: var(--primary-color)
+}
+
+.btn-branding {
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: var(--secondry-color);
 }
