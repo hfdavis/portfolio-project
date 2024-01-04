@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgb(103, 206, 247);
-    --font-family: roboto;
+    --font-family: Fjalla One;
     --secondry-color: rgb(0, 0, 36);
     --highlights: rgb(218, 240, 249);
 }
@@ -29,15 +29,33 @@ p {
 }
 
 .hero h2 {
-    font-weight: normal;
+    font-weight: 400px;
     font-size: 24px;
     color: var(--primary-color)
+}
+
+.about-section {
+    padding: 110px;
+}
+
+.about-section h1 {
+    font-size: 55px;
+    line-height: 80px;
+}
+
+.about-section h2 {
+    font-size: 35px;
+}
+
+.about-section p {
+    font-size: 14px;
 }
 
 .btn-branding {
     background: var(--primary-color);
     border-radius: 4px;
     color: var(--secondry-color);
+
 }
 
 .btn-branding-outline {
@@ -88,6 +106,17 @@ p {
 
     }
 
-    img {
-        border-radius: 5px;
+    .about-section {
+        padding: 30px;
+        text-align: center;
     }
+
+    img {
+        padding-top: 10px;
+        border-radius: 10px;
+    }
+}
+
+img {
+    border-radius: 5px;
+}
