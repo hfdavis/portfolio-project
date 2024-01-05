@@ -34,20 +34,35 @@ p {
     color: var(--primary-color)
 }
 
-.about-section {
-    padding: 110px;
+.project-description h2 {
+    font-family: var(--font-family);
 }
 
-.about-section h1 {
+.content-container {
+
+    padding: 110px;
+
+}
+
+.content-container h1 {
+    font-family: var(--font-family);
     font-size: 55px;
     line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
+    font-family: var(--font-family);
     font-size: 35px;
 }
 
-.about-section p {
+.content-container h3 {
+    font-size: 24px;
+    font-family: var(--font-family);
+    line-height: 1.5;
+    margin: 10px 0 0 0;
+}
+
+.content-container p {
     font-size: 14px;
 }
 
@@ -55,6 +70,7 @@ p {
     background: var(--primary-color);
     border-radius: 4px;
     color: var(--secondry-color);
+    font-family: var(--font-family);
 
 }
 
@@ -63,6 +79,7 @@ p {
     background: var(--primary-color);
     border-radius: 4px;
     color: var(--secondry-color);
+    font-family: var(--font-family);
 
 }
 
@@ -106,7 +123,7 @@ p {
 
     }
 
-    .about-section {
+    .content-container {
         padding: 30px;
         text-align: center;
     }
