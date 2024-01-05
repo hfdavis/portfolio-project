@@ -5,6 +5,45 @@
     --highlights: rgb(218, 240, 249);
 }
 
+i {
+    padding: 10px 30px 6px;
+    font-size: 30px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    padding: 20px 30px 10px;
+    font-size: 17px;
+}
+
+nav {
+    padding: 10px;
+    font-family: var(--font-family);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--secondry-color);
+    transition: all 150ms ease-in-out;
+
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: var(--primary-color);
+
+}
+
+nav li.active a {
+    color: var(--primary-color);
+}
+
 
 h1 {
     font-size: 96px;
@@ -132,6 +171,20 @@ p {
         padding-top: 10px;
         border-radius: 10px;
     }
+
+    nav li {
+        padding: 10px;
+    }
+
+    i {
+        padding: 5px;
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
+
+
 }
 
 img {
