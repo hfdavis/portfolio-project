@@ -44,6 +44,56 @@ nav li.active a {
     color: var(--primary-color);
 }
 
+footer .email-link {
+    text-decoration: none;
+    color: var(--secondry-color);
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 30px;
+    transition: all 150ms ease-in-out;
+}
+
+footer .email-link:hover {
+    color: var(--primary-color);
+}
+
+footer .social-links a {
+    margin: 20px;
+
+    color: var(--secondry-color);
+    background: var(--primary-color);
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+
+}
+
+footer .social-links a:hover {
+    color: var(--primary-color);
+    background: var(--secondry-color);
+}
+
+footer .contact-box {
+    background: var(--secondry-color);
+    padding: 30px 100px;
+    border-radius: 10px;
+}
+
+footer .contact-box h4 {
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    font-size: 48px;
+}
+
+footer .contact-box p {
+    color: var(--primary-color);
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+
+footer .contact-box .footer-button {
+    font-size: 33px;
+}
+
 
 h1 {
     font-size: 96px;
@@ -137,6 +187,8 @@ p {
     line-height: 30px;
 }
 
+
+
 @media (max-width: 960px) {
 
     h1 {
@@ -148,7 +200,7 @@ p {
     }
 
     .hero {
-        padding: 20px;
+        padding: 30px;
     }
 
     .hero h2 {
@@ -182,6 +234,18 @@ p {
 
     ul {
         margin-bottom: 0;
+    }
+
+    footer .contact-box {
+        padding: 20px;
+    }
+
+    footer .contact-box h4 {
+        font-size: 30px;
+    }
+
+    footer .contact-box .footer-button {
+        font-size: 25px;
     }
 
 
