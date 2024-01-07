@@ -38,10 +38,34 @@
       src="https://kit.fontawesome.com/95a055b012.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <meta
+      name="description"
+      content="holly is a Front-end engineer based in Brighton UK - About page"
+    />
+
+    <title>Holly Davis - About me</title>
   </head>
   <body>
-    <div class="content-container container mt-5">
+    <div class="nav-container">
+      <nav class="d-flex justify-content-between">
+        <a href="/"> <i class="fa-solid fa-code"></i> </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home </a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Holly"> About </a>
+          </li>
+          <li>
+            <a href="/work.html" title="Holly's work"> Work </a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Holly"> Contact </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content-container container mt-1">
       <div class="row">
         <div class="col-md-6">
           <h1>Hi I am Holly</h1>
@@ -52,12 +76,54 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="" class="btn btn-branding-outline">See my projects</a>
+          <a href="work.html" class="btn btn-branding-outline"
+            >See my projects</a
+          >
         </div>
         <div class="col-md-6">
-          <img src="images/profile-pic.jpg" class="img-fluid" alt="" />
+          <img src="images/profile-pic.jpg" class="img-fluid mb-5" alt="" />
         </div>
       </div>
+      <footer>
+        <div class="contact-box d-flex justify-content-between">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="">Let's work together</p>
+          </div>
+          <div>
+            <a href="contact.html" class="footer-button btn btn-branding">
+              Contact me</a
+            >
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-2 mt-3">
+          <a href="mailto:holly@mail.com" class="email-link">holly@mail.com</a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            title="Instagram profile"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.threads.net/login"
+            target="_blank"
+            title="Threads profile"
+          >
+            <i class="fa-brands fa-threads"></i>
+          </a>
+          <a
+            href="https://github.com/hfdavis"
+            target="_blank"
+            title="Github profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

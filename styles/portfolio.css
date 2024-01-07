@@ -44,6 +44,8 @@ nav li.active a {
     color: var(--primary-color);
 }
 
+
+
 footer .email-link {
     text-decoration: none;
     color: var(--secondry-color);
@@ -129,7 +131,7 @@ p {
 
 .content-container {
 
-    padding: 110px;
+    padding: 30px;
 
 }
 
