@@ -75,6 +75,7 @@ footer .social-links a:hover {
 }
 
 footer .contact-box {
+    margin-top: 10px;
     background: var(--secondry-color);
     padding: 30px 100px;
     border-radius: 10px;
@@ -187,6 +188,12 @@ p {
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.profile {
+
+    margin: 70px 0 0 50px;
 }
 
 
@@ -224,6 +231,9 @@ p {
     img {
         padding-top: 10px;
         border-radius: 10px;
+
+
+
     }
 
     nav li {
